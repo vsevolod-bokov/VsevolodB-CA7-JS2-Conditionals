@@ -1,0 +1,12 @@
+body {
+    background-image: url("../images/bear.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    color: white;
+  }
+
+  p {
+    font-size: 2rem;
+  }

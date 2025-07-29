@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta name="author" content="Vsevolod Bokov">
+    <link rel="stylesheet" href="css/style.css">
+<script src="js/script.js"></script>
+</head>
+<body>
+    <!-- single paragraph for 3 lines of text: player type, computer type, and won/lost result-->
+   <p id="playercomputerconf">To be replaced</p>
+
+   <!-- added 3 br tags to create empty line of space between printed values-->
+   <script>
+     document.getElementById("playercomputerconf").innerHTML = playertypeconf + '<br><br>' + computertypeconf + '<br><br>' + result;
+    </script>
+</body>
+</html>
